@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CFNetworkingHelper_Example' do
+  pod 'CFNetworkingHelper', :path => '../'
+
+  target 'CFNetworkingHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

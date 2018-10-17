@@ -36,7 +36,9 @@ TODO: Add long description of the pod here.
   #   'CFNetworkingHelper' => ['CFNetworkingHelper/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+s.public_header_files = 'Pod/Classes/CFNetworkingHelper.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+s.dependency 'AFNetworking', '~> 3.2.1'
+
 end

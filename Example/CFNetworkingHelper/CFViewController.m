@@ -8,6 +8,10 @@
 
 #import "CFViewController.h"
 
+//#import <CFNetworkingHelper/CFNetworking.h>
+#import <CFNetworkingHelper/CFNetworkingHelper.h>
+
+
 @interface CFViewController ()
 
 @end
@@ -17,7 +21,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    CFNetworking *net = [[CFNetworking alloc]init];
+    
 }
 
 - (void)didReceiveMemoryWarning

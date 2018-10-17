@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = ''
+  s.description      = 'AFN网络请求库，简单封装类，用于简单的网络请求'
 
   s.homepage         = 'https://github.com/chenfeigogo@gmail.com/CFNetworkingHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

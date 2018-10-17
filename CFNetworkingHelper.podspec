@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'AFN网络请求库，简单封装类，用于简单的网络请求'
 
-  s.homepage         = 'https://github.com/chenfeigogo@gmail.com/CFNetworkingHelper'
+  s.homepage         = 'https://github.com/TabCen/CFNetworkingHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chenfeigogo@gmail.com' => '964267617@qq.com' }
-  s.source           = { :git => 'https://github.com/chenfeigogo@gmail.com/CFNetworkingHelper.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TabCen/CFNetworkingHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

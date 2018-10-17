@@ -10,6 +10,17 @@
 		<true/>
 		<key>NSExceptionDomains</key>
 		<dict>
+			<key>api.avatardata.cn</key>
+			<dict>
+				<key>NSExceptionMinimumTLSVersion</key>
+				<string>TLSv1.0</string>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<false/>
+			</dict>
 			<key>115.239.211.112</key>
 			<dict>
 				<key>NSExceptionMinimumTLSVersion</key>
